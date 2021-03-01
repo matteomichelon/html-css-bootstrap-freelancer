@@ -1,7 +1,18 @@
+/* Debug */
+
+.debug .portfolio .row {
+    background-color: tomato;
+    border: 1px solid black;
+}
+
 /* COMMON */
 
 .text_white {
     color: #fefefe;
+}
+
+.star{
+    padding-bottom: 10px;
 }
 
 /* HEADER */
@@ -17,4 +28,12 @@
 
 .start_content {
     padding: 20px 0;
+}
+
+/* MAIN */
+
+.portfolio_image img {
+    width: 95%;
+    height: auto;
+    border-radius: 5%;
 }
