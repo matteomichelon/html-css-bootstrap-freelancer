@@ -7,11 +7,6 @@
 
 /* COMMON */
 
-.small-wrapper {
-    width: 1000px;
-    margin: auto;
-}
-
 .text_white {
     color: #fefefe;
 }
@@ -50,4 +45,18 @@
 
 main .about {
     padding: 20px 30px;
+}
+
+/* Section Contact Me */
+
+.small-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+@media (min-width: 1200px) {
+    .small-wrapper {
+        width: 1000px;
+        margin: auto;
+    }
 }
