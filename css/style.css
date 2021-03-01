@@ -35,5 +35,6 @@
 .portfolio_image img {
     width: 95%;
     height: auto;
+    margin-bottom: 20px;
     border-radius: 5%;
 }
