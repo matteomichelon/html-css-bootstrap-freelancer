@@ -7,11 +7,16 @@
 
 /* COMMON */
 
+.small-wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
 .text_white {
     color: #fefefe;
 }
 
-.star{
+.star {
     padding-bottom: 10px;
 }
 
@@ -26,8 +31,7 @@
     padding: 20px 0;
 }
 
-
-.start_content{
+.start_content {
     padding: 20px 0;
 }
 
@@ -44,6 +48,6 @@
 
 /* Section About */
 
-main .about{
+main .about {
     padding: 20px 30px;
 }
