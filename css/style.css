@@ -21,6 +21,10 @@ h1, h2 {
     font-weight: bolder;
 }
 
+h2{
+    font-size: 50px;
+}
+
 .green_section {
     background-color: #1abc9c;
     color: #fefefe;
@@ -98,7 +102,8 @@ header ul li a {
 .btn_download {
     background-color: #1abc9c;
     color: white;
-    color: 1px solid white;
+    border: 1px solid white;
+    margin-top: 20px;
 }
 
 .btn_download:hover {
@@ -129,4 +134,3 @@ footer {
     padding: 20px 0;
 }
 
-/* LEZIONE */
