@@ -37,15 +37,18 @@ header {
     text-transform: uppercase;
 }
 
+header a {
+    color: #fefefe;
+}
+
 .nav_top, .copyright {
     background-color: #2c3e50;
     padding: 20px 0;
 }
 
-header .brand, header {
+header .brand {
     font-size: 20px;
     font-weight: bolder;
-    color: white;
 }
 
 /* Menu */
@@ -62,7 +65,6 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: white;
     font-size: 18px;
 }
 
@@ -89,7 +91,7 @@ header ul li a {
 
 /* Section Contact Me */
 
-#form_contact input{
+#form_contact input {
     border-top: 0;
     border-right: 0;
     border-left: 0;
