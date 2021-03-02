@@ -30,6 +30,13 @@ h2 {
     padding: 20px 0;
 }
 
+.star_line{
+    width: 15%;
+    display: inline-block;
+    border-bottom: 3px solid;
+    vertical-align: middle;
+}
+
 .green_section {
     background-color: #1abc9c;
     color: #fefefe;
