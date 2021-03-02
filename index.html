@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TODO inserire cdn fontawesome -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
         integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -14,7 +16,7 @@
 
 <body>
     <!-- HEADER -->
-    <header class="text_white">
+    <header>
 
         <!-- Nav_top -->
         <div class="nav_top">
@@ -23,22 +25,34 @@
 
                     <!-- Left -->
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                        start bootstrap
+                        <div class="brand">start bootstrap</div>
                     </div>
                     <!-- end Left -->
 
                     <!-- Menu -->
                     <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
                         <div class="menu_top text-right">
-                            menu
+                            <ul>
+                                <li>
+                                    <a href="#">portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">about</a>
+                                </li>
+                                <li>
+                                    <a href="#">contact</a>
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                     <!-- end Menu -->
 
                     <!-- Burger menu -->
-                    <div class="col-xs-6 hidden-sm hidden-md hidden-lg">
+                    <div class="col-xs-6 visible-xs-block">
                         <div class="burger_menu text-right">
                             burger menu
+                            <!-- TODO inserire a per creare il link e dentro il burger su fontawesome -->
                         </div>
                     </div>
                     <!-- end Burger menu -->
@@ -48,16 +62,20 @@
         </div>
         <!-- end Nav_top -->
 
-        <!-- Start -->
-        <div class="header_start">
-            <div class="start_content text-center">
-                <div>immagine</div>
-                <h1>start bootstrap</h1>
-                <div class="star">stellina</div>
-                <div>graphic artist - web designer - illustrator</div>
+        <!-- Banner Start -->
+        <div class="section green_section">
+            <div class="container">
+                <div class="start_content text-center">
+                    <div>immagine</div>
+                    <h1>start bootstrap</h1>
+                    <div class="star">
+                        <!-- TODO: inserisci da fontawesome stellina -->stellina
+                    </div>
+                    <h3>graphic artist - web designer - illustrator</h3>
+                </div>
             </div>
         </div>
-        <!-- end Start -->
+        <!-- end Banner Start -->
 
     </header>
     <!-- end HEADER -->
@@ -66,23 +84,24 @@
     <main>
 
         <!-- Portfolio -->
-        <section class="portfolio">
+        <section class="portfolio section">
 
-            <!-- Title -->
-            <div class="portfolio_title text-center">
-                <h2>portfolio</h2>
-                <div class="star">stellina</div>
-            </div>
-            <!-- end Title -->
+            <div class="container">
 
-            <!-- Grid -->
-            <div class="container text-center">
+                <!-- Title -->
+                <div class="portfolio_title text-center">
+                    <h2>portfolio</h2>
+                    <div class="star">stellina</div>
+                </div>
+                <!-- end Title -->
+
+                <!-- Grid -->
                 <div class="row">
 
                     <!-- Cabin -->
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="portfolio_image">
-                            <img src="img/cabin.png" alt="Cabin">
+                            <img class="img-responsive img-rounded" src="img/cabin.png" alt="Cabin">
                         </div>
                     </div>
                     <!-- end Cabin -->
@@ -90,7 +109,7 @@
                     <!-- Cake -->
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="portfolio_image">
-                            <img src="img/cake.png" alt="cake">
+                            <img class="img-responsive img-rounded" src="img/cake.png" alt="cake">
                         </div>
                     </div>
                     <!-- end Cake -->
@@ -98,7 +117,7 @@
                     <!-- Circus -->
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="portfolio_image">
-                            <img src="img/circus.png" alt="Circus">
+                            <img class="img-responsive img-rounded" src="img/circus.png" alt="Circus">
                         </div>
                     </div>
                     <!-- end Circus -->
@@ -106,7 +125,7 @@
                     <!-- Game -->
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="portfolio_image">
-                            <img src="img/game.png" alt="Super Nintendo Joypad">
+                            <img class="img-responsive img-rounded" src="img/game.png" alt="Super Nintendo Joypad">
                         </div>
                     </div>
                     <!-- end Game -->
@@ -114,7 +133,7 @@
                     <!-- Strongbox -->
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="portfolio_image">
-                            <img src="img/safe.png" alt="Strongbox">
+                            <img class="img-responsive img-rounded" src="img/safe.png" alt="Strongbox">
                         </div>
                     </div>
                     <!-- end Strongbox -->
@@ -122,85 +141,98 @@
                     <!-- Submarine -->
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <div class="portfolio_image">
-                            <img src="img/submarine.png" alt="Submarine">
+                            <img class="img-responsive img-rounded" src="img/submarine.png" alt="Submarine">
                         </div>
                     </div>
                     <!-- end Submarine -->
 
-
-
                 </div>
+                <!-- end Grid -->
+
             </div>
-            <!-- end Grid -->
 
         </section>
         <!-- end Portfolio -->
 
-        <!-- About -->
-        <section class="about text_white">
+        <!-- About Section -->
+        <section class="section green_section">
 
-            <!-- Title -->
-            <div class="text-center">
-                <h2>About</h2>
-                <div class="star">stellina</div>
-            </div>
-            <!-- end Title -->
+            <div class="small-container">
 
+                <div class="container-fluid">
 
-            <!-- Content -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ex nobis, eius consectetur
-                            repudiandae
-                            temporibus et perspiciatis harum? Autem eveniet esse atque assumenda, adipisci sapiente ab
-                            voluptatum natus amet doloremque.</p>
+                    <!-- Title -->
+                    <div class="text-center">
+                        <h2>About</h2>
+                        <div class="star">stellina</div>
                     </div>
+                    <!-- end Title -->
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae dolores, animi nihil
-                            asperiores,
-                            vel quis quidem obcaecati eius commodi aliquam quisquam. Veniam impedit exercitationem odio
-                            quibusdam et adipisci optio tempore!</p>
+                    <!-- Cols -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam omnis accusamus nihil
+                            officia rem aliquid beatae perferendis similique, quis tempora animi temporibus asperiores
+                            deleniti ea quibusdam numquam labore ab dolore?
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perspiciatis, ullam soluta
+                            blanditiis harum vero voluptatum illum similique perferendis dicta neque libero dolorem
+                            ipsum magni nesciunt deleniti culpa quasi accusamus!
+                        </div>
                     </div>
+                    <!-- end Cols -->
+
+                    <!-- Button -->
+                    <div class="text-center">
+                        <a class="btn btn_download" href="#">
+                            <!-- TODO inserisci download fontawesome -->download
+                        </a>
+                    </div>
+                    <!-- Button -->
+
                 </div>
             </div>
-            <!-- end Content -->
-
-            <!-- Button -->
-            <div class="text-center">
-                download
-            </div>
-            <!-- Button -->
-
         </section>
-        <!-- end About -->
+        <!-- end About Section -->
 
         <!-- Contact Me -->
-        <section class="contact_me">
+        <section class="contact_me section">
 
-            <div class="small-wrapper">
+            <div class="small-container">
 
-                <!-- Title -->
-                <div class="text-center">
-                    <h2>Contact Me</h2>
-                    <div class="star">stellina</div>
+                <div class="container-fluid">
+
+                    <!-- Title -->
+                    <div class="text-center">
+                        <h2>Contact Me</h2>
+                        <div class="star">stellina</div>
+                    </div>
+                    <!-- end Title -->
+
+                    <!-- Form -->
+                    <form id="form_contact" action="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="Name" placeholder="Name">
+                        </div>
+
+                    </form>
+                    <!-- TODO togliere appena fatto form -->
+                    <!-- <div class="form">
+                        <p>Name</p>
+                        <hr>
+                        <p>Email</p>
+                        <hr>
+                        <p>Phone</p>
+                        <hr>
+                        <p>Message</p>
+                        <hr>
+                        <button>send</button>
+                    </div> -->
+                    <!-- end Form -->
+
                 </div>
-                <!-- end Title -->
-
-                <!-- Form -->
-                <div>
-                    <p>Name</p>
-                    <hr>
-                    <p>Email</p>
-                    <hr>
-                    <p>Phone</p>
-                    <hr>
-                    <p>Message</p>
-                    <hr>
-                    <button>send</button>
-                </div>
-                <!-- end Form -->
 
             </div>
 
@@ -211,44 +243,44 @@
     <!-- end MAIN -->
 
     <!-- FOOTER -->
-    <footer class="text_white text-center">
+    <footer class="text-center">
 
-            <!-- Footer Top -->
-            <div class="footer_top">
+        <!-- Footer Top -->
+        <div class="footer_top">
 
-                <div class="container">
-                    <div class="row">
+            <div class="container">
+                <div class="row">
 
-                        <!-- Location -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <h3>Location</h3>
-                            <span>2215 John Daniel Drive Clark, MO 54243</span>
-                        </div>
-                        <!-- end Location -->
-
-                        <!-- Link -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <h3>Around the web</h3>
-                        </div>
-                        <!-- end Link -->
-
-                        <!-- About Freelancer -->
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <h3>About Freelancer</h3>
-                        </div>
-                        <!-- end About Freelancer -->
-
+                    <!-- Location -->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h3>Location</h3>
+                        <span>2215 John Daniel Drive Clark, MO 54243</span>
                     </div>
+                    <!-- end Location -->
+
+                    <!-- Link -->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h3>Around the web</h3>
+                    </div>
+                    <!-- end Link -->
+
+                    <!-- About Freelancer -->
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <h3>About Freelancer</h3>
+                    </div>
+                    <!-- end About Freelancer -->
+
                 </div>
-
             </div>
-            <!-- end Footer Top -->
 
-            <!-- Copyright -->
-            <div class="copyright text-center">
-                <h5>copyright</h5>
-            </div>
-            <!-- end Copyright -->
+        </div>
+        <!-- end Footer Top -->
+
+        <!-- Copyright -->
+        <div class="copyright text-center">
+            <h5>copyright</h5>
+        </div>
+        <!-- end Copyright -->
 
     </footer>
     <!-- end FOOTER -->
