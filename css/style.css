@@ -145,9 +145,10 @@ footer {
     color: white;
 }
 
+/* Footer Top */
+
 .footer_top {
     background-color: #3a546d;
-    padding: 20px 0;
 }
 
 footer span {
@@ -155,7 +156,8 @@ footer span {
 }
 
 /* Circle */
-footer li a{
+
+footer li a {
     width: 40px;
     height: 40px;
     border: 1px solid white;
@@ -165,9 +167,21 @@ footer li a{
     line-height: 40px;
     vertical-align: middle;
 }
+
 /* end Circle */
 
 footer ul li i {
     color: white;
-
 }
+
+footer .about_freelancer a {
+    color: #1abc9c;
+}
+
+@media (max-width: 768px) {
+    footer .footer_link {
+        padding: 40px 0;
+    }
+}
+
+/* Copyright */
