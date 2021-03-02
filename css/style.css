@@ -16,13 +16,18 @@ body {
     padding: 40px 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bolder;
 }
 
-h2{
+h2 {
     font-size: 50px;
+}
+
+.nav_top, .copyright {
+    background-color: #2c3e50;
+    padding: 20px 0;
 }
 
 .green_section {
@@ -35,6 +40,27 @@ h2{
     padding: 20px 0;
 }
 
+/* ul, li*/
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul li:first-child {
+    margin-left: 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
 /* HEADER */
 
 header a {
@@ -43,9 +69,8 @@ header a {
 
 /* Nav_top */
 
-.nav_top, .copyright {
-    background-color: #2c3e50;
-    padding: 20px 0;
+header .nav_top {
+    text-transform: uppercase;
 }
 
 header .brand {
@@ -72,23 +97,6 @@ header h3 {
     text-transform: uppercase;
 }
 
-/* Menu */
-
-header ul {
-    margin: 0;
-    padding: 0;
-}
-
-header ul li {
-    display: inline-block;
-    margin-left: 15px;
-}
-
-header ul li a {
-    text-decoration: none;
-    font-size: 18px;
-}
-
 /* MAIN */
 
 /* Section Portfolio */
@@ -113,7 +121,7 @@ header ul li a {
 
 /* Section Contact Me */
 
-#form_contact input, #form_contact textarea  {
+#form_contact input, #form_contact textarea {
     border-top: 0;
     border-right: 0;
     border-left: 0;
@@ -127,10 +135,9 @@ header ul li a {
     color: #536270;
 }
 
-#form_contact .form_button a{
+#form_contact .form_button a {
     padding: 10px 20px;
 }
-
 
 /* FOOTER */
 
@@ -143,3 +150,24 @@ footer {
     padding: 20px 0;
 }
 
+footer span {
+    font-size: 20px;
+}
+
+/* Circle */
+footer li a{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+}
+/* end Circle */
+
+footer ul li i {
+    color: white;
+
+}
