@@ -113,15 +113,24 @@ header ul li a {
 
 /* Section Contact Me */
 
-#form_contact input {
+#form_contact input, #form_contact textarea  {
     border-top: 0;
     border-right: 0;
     border-left: 0;
     border-radius: 0;
     box-shadow: none;
     font-size: 20px;
-    padding: 30px;
+    padding: 30px 0;
 }
+
+#form_contact input::placeholder, #form_contact textarea {
+    color: #536270;
+}
+
+#form_contact .form_button a{
+    padding: 10px 20px;
+}
+
 
 /* FOOTER */
 
