@@ -30,7 +30,12 @@ h2 {
     padding: 20px 0;
 }
 
-.star_line{
+.star {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.star_line {
     width: 15%;
     display: inline-block;
     border-bottom: 3px solid;
@@ -40,11 +45,6 @@ h2 {
 .green_section {
     background-color: #1abc9c;
     color: #fefefe;
-}
-
-.star {
-    font-size: 22px;
-    padding: 20px 0;
 }
 
 /* ul, li*/
@@ -172,7 +172,7 @@ footer li a {
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 /* end Circle */
